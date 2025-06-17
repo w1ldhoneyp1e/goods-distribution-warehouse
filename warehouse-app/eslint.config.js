@@ -16,6 +16,9 @@ export default tseslint.config(
             '**/dist/**',
             'build/**',
             '.cache/**',
+            'tailwind.config.js',
+            'postcss.config.js',
+            'src/lib/utils.ts',
         ],
     },
 
